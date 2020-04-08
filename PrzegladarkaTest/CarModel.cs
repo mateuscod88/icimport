@@ -12,5 +12,6 @@ namespace PrzegladarkaTest
         public string BrandName { get; internal set; }
         public string BrandId { get; internal set; }
         public string ModelId { get; internal set; }
+        public List<Engine> Engines { get; set; }
     }
 }

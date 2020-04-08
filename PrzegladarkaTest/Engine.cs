@@ -4,7 +4,7 @@
     {
         public string Id { get; set; }
         public string Name { get; set; }
-        public EngineDetail EngineDetail { get; set; }
+        //public EngineDetail EngineDetail { get; set; }
         public string Code { get; internal set; }
         public string DateFrom { get; internal set; }
         public string DatoTo { get; internal set; }

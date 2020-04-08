@@ -10,22 +10,29 @@ namespace PrzegladarkaTest
 {
     public class ImporterIC
     {
-        public List<Car> GetCars()
+        public async  Task<List<Car>> GetCars()
         {
+            List<Car> cars = new List<Car>();
+
             var brands = GetBrands();
+            
             foreach (var brand in brands)
             {
                 //var models = GetModelsByBrandId(brand.BrandICId);
+                await Task.Delay(5000);
                 var models = GetModelsByBrandId(brand.BrandICId);
-
+                brand.Models = models;
                 foreach (var model in models)
                 {
                     //var engines = GetEnginesByModelId(model.ModelId,model.BrandId,model.BrandName);
-                    var engines = GetEnginesByModelId(model.ModelId, model.BrandId, model.Name);
+                    await Task.Delay(5000);
 
+                    var engines = GetEnginesByModelId(model.ModelId, model.BrandId, model.Name);
+                    model.Engines = engines;
                 }
             }
-            return new List<Car>();
+            cars.Add(new Car { Brands = brands });
+            return cars;
         }
         public List<Brand> GetBrands()
         {
@@ -99,17 +106,7 @@ namespace PrzegladarkaTest
             foreach (var item in modelsSplited)
             {
 
-                if (item.Contains("ul"))
-                {
-                    if(item.IndexOf("model_") > -1)
-                    {
-                        var startIndex = item.IndexOf("model_");
-                        var substr = item.Substring(startIndex);
-                        var endIndex = substr.IndexOf("\"");
-                        var modelId = substr.Substring(0, endIndex);
-                        models.Add(modelId);
-                    }
-                }
+                
                 if (!item.Contains("ul"))
                 {
                     if (item.IndexOf("<span>") > -1)
@@ -149,6 +146,17 @@ namespace PrzegladarkaTest
                         }
                     }
                 }
+                if (item.Contains("ul"))
+                {
+                    if (item.IndexOf("model_") > -1)
+                    {
+                        var startIndex = item.IndexOf("model_");
+                        var substr = item.Substring(startIndex);
+                        var endIndex = substr.IndexOf("\"");
+                        var modelId = substr.Substring(0, endIndex);
+                        models.Add(modelId);
+                    }
+                }
 
 
 
@@ -157,7 +165,7 @@ namespace PrzegladarkaTest
             //new CarModel { Name = models[i * 4], Brand = models[(i * 4) + 1], ProductionYearFrom = models[(i * 4) + 2], ProductionYearTo = models[(i * 4) + 3] }
             var car = new CarModel();
             car.BrandId = brandId;
-            for (int i = 0; i < models.Count / 4; i++)
+            for (int i = 0; i < models.Count; i++)
             {
                 if( i < 4)
                 {
@@ -178,18 +186,18 @@ namespace PrzegladarkaTest
                     continue;
                 }
                 
-                if (models[i].IndexOf(".") > -1 && models[i - 2].IndexOf(".") > -1)
+                if (models[i].IndexOf(".") > -1 && models[i - 1].IndexOf(".") > -1)
                 {
                     car.DateTo = models[i];
                     cars.Add(car);
                     car = new CarModel { BrandId = brandId };
 
                 }
-                else if (models[i].IndexOf(".") > -1 && models[i + 2].IndexOf(".") > -1)
+                else if (models[i].IndexOf(".") > -1 && models[i + 1].IndexOf(".") > -1)
                 {
                     car.DateFrom = models[i];
                 }
-                else if (models[i].IndexOf(".") > -1 && models[i + 2].IndexOf(".") == -1)
+                else if (models[i].IndexOf(".") > -1 && models[i + 1].IndexOf(".") == -1)
                 {
                     car.DateFrom = models[i];
                     cars.Add(car);
@@ -232,9 +240,9 @@ namespace PrzegladarkaTest
 
             //var response = client.Execute(request);
             //var EnginesSplited = response.Content.Split("<li >");
-            string markaFilePath = @"C:\Custom\silniki.txt";
-            var markaFile = File.ReadAllText(markaFilePath);
-            var markaSplited = markaFile.Split("<li");
+            //string markaFilePath = @"C:\Custom\silniki.txt";
+            //var markaFile = File.ReadAllText(markaFilePath);
+            //var markaSplited = markaFile.Split("<li");
             var response = HttpGet($"https://e-katalog.intercars.com.pl/u/tecdoc/u_tecdoc_result.php?call=typ&model={modelId}&wsk=O");
             var modelsSplited = response.Split("<li");
             string id = string.Empty;
@@ -247,9 +255,14 @@ namespace PrzegladarkaTest
             string engineKW = string.Empty;
             string carBody = string.Empty;
             List<Engine> engines = new List<Engine>();
-
+            var i = 0;
             foreach (var model in modelsSplited)
             {
+                if(i < 8)
+                {
+                    i++;
+                    continue;
+                }
                 var ind = model.IndexOf("<a class=\"ajax");
                 var vm = model.IndexOf("vmiddle");
                 if (model.IndexOf("<a class=\"ajax") > -1 && model.IndexOf("<small") > -1)
@@ -336,104 +349,104 @@ namespace PrzegladarkaTest
             var value  = valueSubstring.Substring(0,endValueIndex);
             return value;
         }
-        public List<Car> GetZastosowanie()
-        {
-            RestClient client = new RestClient("https://e-katalog.intercars.com.pl/u/u_karta_stosowanew.php");
-            RestRequest request = new RestRequest();
-            //request.AddParameter("artnr", "1410407");
-            request.AddParameter("artnr", "1411184");
+        //public List<Car> GetZastosowanie()
+        //{
+        //    RestClient client = new RestClient("https://e-katalog.intercars.com.pl/u/u_karta_stosowanew.php");
+        //    RestRequest request = new RestRequest();
+        //    //request.AddParameter("artnr", "1410407");
+        //    request.AddParameter("artnr", "1411184");
 
-            request.AddParameter("call", "typ");
-            request.AddParameter("wit", "KATALOG");
-            request.AddParameter("wsk", "O");
-            request.AddParameter("lang", "PL");
+        //    request.AddParameter("call", "typ");
+        //    request.AddParameter("wit", "KATALOG");
+        //    request.AddParameter("wsk", "O");
+        //    request.AddParameter("lang", "PL");
 
 
-            var response = client.Execute(request);
-            var EnginesSplited = response.Content.Split("<li");
-            var carList = new List<Car>();
-            Car car = null;
-            List<Engine> engines = null;
-            foreach (var item in EnginesSplited)
-            {
-                if (!item.Contains("<script") && !item.Contains("</a") && !item.Contains("id=\"mar"))
-                {
-                    if (engines != null)
-                    {
-                        car.Engines = engines;
-                        carList.Add(car);
-                        car = null;
-                        engines = null;
-                    }
-                    var spanIndex = item.LastIndexOf("</span");
+        //    var response = client.Execute(request);
+        //    var EnginesSplited = response.Content.Split("<li");
+        //    var carList = new List<Car>();
+        //    Car car = null;
+        //    List<Engine> engines = null;
+        //    foreach (var item in EnginesSplited)
+        //    {
+        //        if (!item.Contains("<script") && !item.Contains("</a") && !item.Contains("id=\"mar"))
+        //        {
+        //            if (engines != null)
+        //            {
+        //                car.Engines = engines;
+        //                carList.Add(car);
+        //                car = null;
+        //                engines = null;
+        //            }
+        //            var spanIndex = item.LastIndexOf("</span");
 
-                    var itemWithoutSpan = item.Substring(0, spanIndex + 1);
+        //            var itemWithoutSpan = item.Substring(0, spanIndex + 1);
 
-                    var spanStartIndex = itemWithoutSpan.LastIndexOf(">");
-                    var spanEndIndex = itemWithoutSpan.LastIndexOf("<");
-                    var modelName = item.Substring(spanStartIndex + 1, spanEndIndex - spanStartIndex - 1);
-                    if (car == null)
-                    {
-                        car = new Car();
-                    }
-                    car.Brand = modelName;
-                }
-                else if (item.Contains("</a") && !item.Contains("id=\"mar"))
-                {
-                    var spanIndex = item.LastIndexOf("</a");
+        //            var spanStartIndex = itemWithoutSpan.LastIndexOf(">");
+        //            var spanEndIndex = itemWithoutSpan.LastIndexOf("<");
+        //            var modelName = item.Substring(spanStartIndex + 1, spanEndIndex - spanStartIndex - 1);
+        //            if (car == null)
+        //            {
+        //                car = new Car();
+        //            }
+        //            car.Brand = modelName;
+        //        }
+        //        else if (item.Contains("</a") && !item.Contains("id=\"mar"))
+        //        {
+        //            var spanIndex = item.LastIndexOf("</a");
 
-                    var itemWithoutSpan = item.Substring(0, spanIndex + 1);
+        //            var itemWithoutSpan = item.Substring(0, spanIndex + 1);
 
-                    var spanStartIndex = itemWithoutSpan.LastIndexOf(">");
-                    var spanEndIndex = itemWithoutSpan.LastIndexOf("<");
-                    var modelName = item.Substring(spanStartIndex + 1, spanEndIndex - spanStartIndex - 1);
-                    var idStartIndex = itemWithoutSpan.IndexOf("stypu(");
-                    var withoutStypu = itemWithoutSpan.Substring(idStartIndex, itemWithoutSpan.Length - idStartIndex);
-                    var commaEndIndex = withoutStypu.IndexOf(",");
-                    var bracketStartIndex = withoutStypu.IndexOf("(");
-                    var id = withoutStypu.Substring(bracketStartIndex + 1, commaEndIndex - bracketStartIndex - 1);
-                    if (engines == null)
-                    {
-                        engines = new List<Engine>();
-                    }
-                    var detail = GetEngineDetails(id);
-                    engines.Add(new Engine { Name = modelName, Id = id, EngineDetail = detail });
-                }
-                else if (item.Contains("id=\"mar"))
-                {
+        //            var spanStartIndex = itemWithoutSpan.LastIndexOf(">");
+        //            var spanEndIndex = itemWithoutSpan.LastIndexOf("<");
+        //            var modelName = item.Substring(spanStartIndex + 1, spanEndIndex - spanStartIndex - 1);
+        //            var idStartIndex = itemWithoutSpan.IndexOf("stypu(");
+        //            var withoutStypu = itemWithoutSpan.Substring(idStartIndex, itemWithoutSpan.Length - idStartIndex);
+        //            var commaEndIndex = withoutStypu.IndexOf(",");
+        //            var bracketStartIndex = withoutStypu.IndexOf("(");
+        //            var id = withoutStypu.Substring(bracketStartIndex + 1, commaEndIndex - bracketStartIndex - 1);
+        //            if (engines == null)
+        //            {
+        //                engines = new List<Engine>();
+        //            }
+        //            var detail = GetEngineDetails(id);
+        //            engines.Add(new Engine { Name = modelName, Id = id, EngineDetail = detail });
+        //        }
+        //        else if (item.Contains("id=\"mar"))
+        //        {
 
-                    var spanIndex = item.LastIndexOf("</span");
+        //            var spanIndex = item.LastIndexOf("</span");
 
-                    var itemWithoutSpan = item.Substring(0, spanIndex + 1);
+        //            var itemWithoutSpan = item.Substring(0, spanIndex + 1);
 
-                    var spanStartIndex = itemWithoutSpan.LastIndexOf(">");
-                    var spanEndIndex = itemWithoutSpan.LastIndexOf("<");
-                    var modelName = item.Substring(spanStartIndex + 1, spanEndIndex - spanStartIndex - 1);
-                    if (engines != null)
-                    {
-                        car.Engines = engines;
-                        carList.Add(car);
-                        car = null;
-                        engines = null;
-                    }
-                    if (car == null)
-                    {
-                        car = new Car();
-                    }
-                    car.Name = modelName;
-                }
-            }
-            foreach (var carItem in carList)
-            {
-                Console.WriteLine(carItem.Name);
-                Console.WriteLine(carItem.Brand);
-                foreach (var item in carItem.Engines)
-                {
-                    Console.WriteLine($"{item.Name}");
-                }
-            }
-            return carList;
-        }
+        //            var spanStartIndex = itemWithoutSpan.LastIndexOf(">");
+        //            var spanEndIndex = itemWithoutSpan.LastIndexOf("<");
+        //            var modelName = item.Substring(spanStartIndex + 1, spanEndIndex - spanStartIndex - 1);
+        //            if (engines != null)
+        //            {
+        //                car.Engines = engines;
+        //                carList.Add(car);
+        //                car = null;
+        //                engines = null;
+        //            }
+        //            if (car == null)
+        //            {
+        //                car = new Car();
+        //            }
+        //            car.Name = modelName;
+        //        }
+        //    }
+        //    foreach (var carItem in carList)
+        //    {
+        //        Console.WriteLine(carItem.Name);
+        //        Console.WriteLine(carItem.Brand);
+        //        foreach (var item in carItem.Engines)
+        //        {
+        //            Console.WriteLine($"{item.Name}");
+        //        }
+        //    }
+        //    return carList;
+        //}
 
         public EngineDetail GetEngineDetails(string id)
         {

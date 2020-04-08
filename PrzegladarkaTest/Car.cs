@@ -4,10 +4,11 @@ namespace PrzegladarkaTest
 {
     public class Car
     {
-        public string Name { get; set; }
-        public string Brand { get; set; }
-        public string ProductionYearFrom { get; set; }
-        public string ProductionYearTo { get; set; }
-        public List<Engine> Engines { get; set; }
+        //public string Name { get; set; }
+        //public string Brand { get; set; }
+        //public string ProductionYearFrom { get; set; }
+        //public string ProductionYearTo { get; set; }
+        public List<Brand> Brands { get; set; }
+
     }
 }

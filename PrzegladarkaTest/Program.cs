@@ -1,20 +1,28 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Diagnostics;
 using System.IO;
+using System.Threading.Tasks;
 
 namespace PrzegladarkaTest
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
 
             var icImporter = new ImporterIC();
-            var cars = icImporter.GetCars();
+            var cars = await icImporter.GetCars();
+            string output = JsonConvert.SerializeObject(cars);
+            using (StreamWriter outputFile = new StreamWriter("WriteLines.txt"))
+            {
+                outputFile.WriteLine(output);
+            }
             //var cars = icImporter.GetBrands();
 
+
             //icImporter.GetModelsByBrandId("5");
-            //icImporter.GetEnginesByModelId("4955","5", "A3 (8P1)");
+            //icImporter.GetEnginesByModelId("4955", "5", "A3 (8P1)");
             //var carList = icImporter.GetZastosowanie();
             //using (var sw = File.CreateText("Zastosowanie.txt"))
             //{
