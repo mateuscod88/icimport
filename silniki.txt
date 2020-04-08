@@ -1,0 +1,297 @@
+<ul class="KatTcDcTableHead vmiddle">
+			<li class="width30 tKod vmiddle"><span>Typ</span></li>
+			<li class="width10 tDatOd vmiddle"><span class="center">Od</span></li>
+			<li class="width10 tDatDo vmiddle"><span class="center">Do</span></li>
+			<li class="width10 tPoj vmiddle"><span class="center">CCM</span></li>
+			<li class="width10 tKon vmiddle"><span class="center">KM</span></li>
+			<li class="width10 tKil vmiddle"><span class="center">KW</span></li>
+			<li class="width20 tRod vmiddle"><span class="center">Rodzaj</span></li>
+		</ul><ul class="KatTcDcTableVehicle" onclick="">
+			<li><span>AUDI A3 (8P1)</span></li>
+		</ul><ul class="KatTcDcTable vmiddle typ typ_33251" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(33251, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/33251"><span onclick="daj_gr_kat(33251);">1.2 TSI</span><small onclick="daj_gr_kat(33251);">Kod silnika: CBZB</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(33251);"><a class="ajax" href="/ekatalog/osobowe/grupy/33251"><span class="center">2010.04</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(33251);"><a class="ajax" href="/ekatalog/osobowe/grupy/33251"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(33251);"><a class="ajax" href="/ekatalog/osobowe/grupy/33251"><span class="center">1197</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(33251);"><a class="ajax" href="/ekatalog/osobowe/grupy/33251"><span class="center">105</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(33251);"><a class="ajax" href="/ekatalog/osobowe/grupy/33251"><span class="center">77</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(33251);"><a class="ajax" href="/ekatalog/osobowe/grupy/33251"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_18358" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(18358, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/18358"><span onclick="daj_gr_kat(18358);">2.0 TFSI</span><small onclick="daj_gr_kat(18358);">Kod silnika: BWA, AXX, CAWB, CCZA</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(18358);"><a class="ajax" href="/ekatalog/osobowe/grupy/18358"><span class="center">2004.09</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(18358);"><a class="ajax" href="/ekatalog/osobowe/grupy/18358"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(18358);"><a class="ajax" href="/ekatalog/osobowe/grupy/18358"><span class="center">1984</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(18358);"><a class="ajax" href="/ekatalog/osobowe/grupy/18358"><span class="center">200</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(18358);"><a class="ajax" href="/ekatalog/osobowe/grupy/18358"><span class="center">147</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(18358);"><a class="ajax" href="/ekatalog/osobowe/grupy/18358"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_18359" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(18359, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/18359"><span onclick="daj_gr_kat(18359);">2.0 TFSI quattro</span><small onclick="daj_gr_kat(18359);">Kod silnika: AXX, BWA, CCZA</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(18359);"><a class="ajax" href="/ekatalog/osobowe/grupy/18359"><span class="center">2004.09</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(18359);"><a class="ajax" href="/ekatalog/osobowe/grupy/18359"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(18359);"><a class="ajax" href="/ekatalog/osobowe/grupy/18359"><span class="center">1984</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(18359);"><a class="ajax" href="/ekatalog/osobowe/grupy/18359"><span class="center">200</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(18359);"><a class="ajax" href="/ekatalog/osobowe/grupy/18359"><span class="center">147</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(18359);"><a class="ajax" href="/ekatalog/osobowe/grupy/18359"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_28169" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(28169, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/28169"><span onclick="daj_gr_kat(28169);">S3 quattro</span><small onclick="daj_gr_kat(28169);">Kod silnika: BZC, CDLC</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(28169);"><a class="ajax" href="/ekatalog/osobowe/grupy/28169"><span class="center">2007.02</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(28169);"><a class="ajax" href="/ekatalog/osobowe/grupy/28169"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(28169);"><a class="ajax" href="/ekatalog/osobowe/grupy/28169"><span class="center">1984</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(28169);"><a class="ajax" href="/ekatalog/osobowe/grupy/28169"><span class="center">256</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(28169);"><a class="ajax" href="/ekatalog/osobowe/grupy/28169"><span class="center">188</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(28169);"><a class="ajax" href="/ekatalog/osobowe/grupy/28169"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_19914" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(19914, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/19914"><span onclick="daj_gr_kat(19914);">S3 quattro</span><small onclick="daj_gr_kat(19914);">Kod silnika: CDLA, BHZ</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(19914);"><a class="ajax" href="/ekatalog/osobowe/grupy/19914"><span class="center">2006.11</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(19914);"><a class="ajax" href="/ekatalog/osobowe/grupy/19914"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(19914);"><a class="ajax" href="/ekatalog/osobowe/grupy/19914"><span class="center">1984</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(19914);"><a class="ajax" href="/ekatalog/osobowe/grupy/19914"><span class="center">265</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(19914);"><a class="ajax" href="/ekatalog/osobowe/grupy/19914"><span class="center">195</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(19914);"><a class="ajax" href="/ekatalog/osobowe/grupy/19914"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_17577" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(17577, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/17577"><span onclick="daj_gr_kat(17577);">3.2 V6 quattro</span><small onclick="daj_gr_kat(17577);">Kod silnika: BDB, BUB, BMJ</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(17577);"><a class="ajax" href="/ekatalog/osobowe/grupy/17577"><span class="center">2003.07</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(17577);"><a class="ajax" href="/ekatalog/osobowe/grupy/17577"><span class="center">2009.05</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(17577);"><a class="ajax" href="/ekatalog/osobowe/grupy/17577"><span class="center">3189</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(17577);"><a class="ajax" href="/ekatalog/osobowe/grupy/17577"><span class="center">250</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(17577);"><a class="ajax" href="/ekatalog/osobowe/grupy/17577"><span class="center">184</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(17577);"><a class="ajax" href="/ekatalog/osobowe/grupy/17577"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_31316" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(31316, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/31316"><span onclick="daj_gr_kat(31316);">1.6 TDI</span><small onclick="daj_gr_kat(31316);">Kod silnika: CAYB</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(31316);"><a class="ajax" href="/ekatalog/osobowe/grupy/31316"><span class="center">2009.05</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(31316);"><a class="ajax" href="/ekatalog/osobowe/grupy/31316"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(31316);"><a class="ajax" href="/ekatalog/osobowe/grupy/31316"><span class="center">1598</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(31316);"><a class="ajax" href="/ekatalog/osobowe/grupy/31316"><span class="center">90</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(31316);"><a class="ajax" href="/ekatalog/osobowe/grupy/31316"><span class="center">66</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(31316);"><a class="ajax" href="/ekatalog/osobowe/grupy/31316"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_31317" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(31317, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/31317"><span onclick="daj_gr_kat(31317);">1.6 TDI</span><small onclick="daj_gr_kat(31317);">Kod silnika: CAYC</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(31317);"><a class="ajax" href="/ekatalog/osobowe/grupy/31317"><span class="center">2009.05</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(31317);"><a class="ajax" href="/ekatalog/osobowe/grupy/31317"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(31317);"><a class="ajax" href="/ekatalog/osobowe/grupy/31317"><span class="center">1598</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(31317);"><a class="ajax" href="/ekatalog/osobowe/grupy/31317"><span class="center">105</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(31317);"><a class="ajax" href="/ekatalog/osobowe/grupy/31317"><span class="center">77</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(31317);"><a class="ajax" href="/ekatalog/osobowe/grupy/31317"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_17398" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(17398, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/17398"><span onclick="daj_gr_kat(17398);">1.9 TDI</span><small onclick="daj_gr_kat(17398);">Kod silnika: BKC, BXE, BLS</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(17398);"><a class="ajax" href="/ekatalog/osobowe/grupy/17398"><span class="center">2003.05</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(17398);"><a class="ajax" href="/ekatalog/osobowe/grupy/17398"><span class="center">2010.05</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(17398);"><a class="ajax" href="/ekatalog/osobowe/grupy/17398"><span class="center">1896</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(17398);"><a class="ajax" href="/ekatalog/osobowe/grupy/17398"><span class="center">105</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(17398);"><a class="ajax" href="/ekatalog/osobowe/grupy/17398"><span class="center">77</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(17398);"><a class="ajax" href="/ekatalog/osobowe/grupy/17398"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_26581" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(26581, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/26581"><span onclick="daj_gr_kat(26581);">1.4 TFSI</span><small onclick="daj_gr_kat(26581);">Kod silnika: CAXC, CMSA</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(26581);"><a class="ajax" href="/ekatalog/osobowe/grupy/26581"><span class="center">2007.09</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(26581);"><a class="ajax" href="/ekatalog/osobowe/grupy/26581"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(26581);"><a class="ajax" href="/ekatalog/osobowe/grupy/26581"><span class="center">1390</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(26581);"><a class="ajax" href="/ekatalog/osobowe/grupy/26581"><span class="center">125</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(26581);"><a class="ajax" href="/ekatalog/osobowe/grupy/26581"><span class="center">92</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(26581);"><a class="ajax" href="/ekatalog/osobowe/grupy/26581"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_17458" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(17458, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/17458"><span onclick="daj_gr_kat(17458);">2.0 TDI</span><small onclick="daj_gr_kat(17458);">Kod silnika: CBAA, CFFA, AZV</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(17458);"><a class="ajax" href="/ekatalog/osobowe/grupy/17458"><span class="center">2003.05</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(17458);"><a class="ajax" href="/ekatalog/osobowe/grupy/17458"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(17458);"><a class="ajax" href="/ekatalog/osobowe/grupy/17458"><span class="center">1968</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(17458);"><a class="ajax" href="/ekatalog/osobowe/grupy/17458"><span class="center">136</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(17458);"><a class="ajax" href="/ekatalog/osobowe/grupy/17458"><span class="center">100</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(17458);"><a class="ajax" href="/ekatalog/osobowe/grupy/17458"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_18356" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(18356, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/18356"><span onclick="daj_gr_kat(18356);">2.0 TDI quattro</span><small onclick="daj_gr_kat(18356);">Kod silnika: AZV</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(18356);"><a class="ajax" href="/ekatalog/osobowe/grupy/18356"><span class="center">2003.05</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(18356);"><a class="ajax" href="/ekatalog/osobowe/grupy/18356"><span class="center">2008.06</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(18356);"><a class="ajax" href="/ekatalog/osobowe/grupy/18356"><span class="center">1968</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(18356);"><a class="ajax" href="/ekatalog/osobowe/grupy/18356"><span class="center">136</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(18356);"><a class="ajax" href="/ekatalog/osobowe/grupy/18356"><span class="center">100</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(18356);"><a class="ajax" href="/ekatalog/osobowe/grupy/18356"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_19966" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(19966, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/19966"><span onclick="daj_gr_kat(19966);">2.0 TDI</span><small onclick="daj_gr_kat(19966);">Kod silnika: BMM</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(19966);"><a class="ajax" href="/ekatalog/osobowe/grupy/19966"><span class="center">2005.06</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(19966);"><a class="ajax" href="/ekatalog/osobowe/grupy/19966"><span class="center">2008.06</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(19966);"><a class="ajax" href="/ekatalog/osobowe/grupy/19966"><span class="center">1968</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(19966);"><a class="ajax" href="/ekatalog/osobowe/grupy/19966"><span class="center">140</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(19966);"><a class="ajax" href="/ekatalog/osobowe/grupy/19966"><span class="center">103</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(19966);"><a class="ajax" href="/ekatalog/osobowe/grupy/19966"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_19967" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(19967, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/19967"><span onclick="daj_gr_kat(19967);">2.0 TDI quattro</span><small onclick="daj_gr_kat(19967);">Kod silnika: BMM</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(19967);"><a class="ajax" href="/ekatalog/osobowe/grupy/19967"><span class="center">2006.01</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(19967);"><a class="ajax" href="/ekatalog/osobowe/grupy/19967"><span class="center">2008.06</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(19967);"><a class="ajax" href="/ekatalog/osobowe/grupy/19967"><span class="center">1968</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(19967);"><a class="ajax" href="/ekatalog/osobowe/grupy/19967"><span class="center">140</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(19967);"><a class="ajax" href="/ekatalog/osobowe/grupy/19967"><span class="center">103</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(19967);"><a class="ajax" href="/ekatalog/osobowe/grupy/19967"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_17173" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(17173, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/17173"><span onclick="daj_gr_kat(17173);">2.0 TDI 16V</span><small onclick="daj_gr_kat(17173);">Kod silnika: CFFB, CBAB, BKD, CLJA</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(17173);"><a class="ajax" href="/ekatalog/osobowe/grupy/17173"><span class="center">2003.05</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(17173);"><a class="ajax" href="/ekatalog/osobowe/grupy/17173"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(17173);"><a class="ajax" href="/ekatalog/osobowe/grupy/17173"><span class="center">1968</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(17173);"><a class="ajax" href="/ekatalog/osobowe/grupy/17173"><span class="center">140</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(17173);"><a class="ajax" href="/ekatalog/osobowe/grupy/17173"><span class="center">103</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(17173);"><a class="ajax" href="/ekatalog/osobowe/grupy/17173"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_18360" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(18360, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/18360"><span onclick="daj_gr_kat(18360);">2.0 TDI 16V quattro</span><small onclick="daj_gr_kat(18360);">Kod silnika: CBAB, CFFB, BKD</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(18360);"><a class="ajax" href="/ekatalog/osobowe/grupy/18360"><span class="center">2004.08</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(18360);"><a class="ajax" href="/ekatalog/osobowe/grupy/18360"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(18360);"><a class="ajax" href="/ekatalog/osobowe/grupy/18360"><span class="center">1968</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(18360);"><a class="ajax" href="/ekatalog/osobowe/grupy/18360"><span class="center">140</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(18360);"><a class="ajax" href="/ekatalog/osobowe/grupy/18360"><span class="center">103</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(18360);"><a class="ajax" href="/ekatalog/osobowe/grupy/18360"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_32688" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(32688, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/32688"><span onclick="daj_gr_kat(32688);">2.0 TDI</span><small onclick="daj_gr_kat(32688);">Kod silnika: BUY</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(32688);"><a class="ajax" href="/ekatalog/osobowe/grupy/32688"><span class="center">2006.06</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(32688);"><a class="ajax" href="/ekatalog/osobowe/grupy/32688"><span class="center">2008.06</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(32688);"><a class="ajax" href="/ekatalog/osobowe/grupy/32688"><span class="center">1968</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(32688);"><a class="ajax" href="/ekatalog/osobowe/grupy/32688"><span class="center">163</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(32688);"><a class="ajax" href="/ekatalog/osobowe/grupy/32688"><span class="center">120</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(32688);"><a class="ajax" href="/ekatalog/osobowe/grupy/32688"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_19614" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(19614, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/19614"><span onclick="daj_gr_kat(19614);">2.0 TDI</span><small onclick="daj_gr_kat(19614);">Kod silnika: CBBB, CFGB, BMN</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(19614);"><a class="ajax" href="/ekatalog/osobowe/grupy/19614"><span class="center">2006.03</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(19614);"><a class="ajax" href="/ekatalog/osobowe/grupy/19614"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(19614);"><a class="ajax" href="/ekatalog/osobowe/grupy/19614"><span class="center">1968</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(19614);"><a class="ajax" href="/ekatalog/osobowe/grupy/19614"><span class="center">170</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(19614);"><a class="ajax" href="/ekatalog/osobowe/grupy/19614"><span class="center">125</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(19614);"><a class="ajax" href="/ekatalog/osobowe/grupy/19614"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_19615" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(19615, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/19615"><span onclick="daj_gr_kat(19615);">2.0 TDI quattro</span><small onclick="daj_gr_kat(19615);">Kod silnika: CBBB, BMN, CFGB</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(19615);"><a class="ajax" href="/ekatalog/osobowe/grupy/19615"><span class="center">2006.03</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(19615);"><a class="ajax" href="/ekatalog/osobowe/grupy/19615"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(19615);"><a class="ajax" href="/ekatalog/osobowe/grupy/19615"><span class="center">1968</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(19615);"><a class="ajax" href="/ekatalog/osobowe/grupy/19615"><span class="center">170</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(19615);"><a class="ajax" href="/ekatalog/osobowe/grupy/19615"><span class="center">125</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(19615);"><a class="ajax" href="/ekatalog/osobowe/grupy/19615"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_17172" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(17172, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/17172"><span onclick="daj_gr_kat(17172);">1.6</span><small onclick="daj_gr_kat(17172);">Kod silnika: BSE, BGU, BSF</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(17172);"><a class="ajax" href="/ekatalog/osobowe/grupy/17172"><span class="center">2003.05</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(17172);"><a class="ajax" href="/ekatalog/osobowe/grupy/17172"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(17172);"><a class="ajax" href="/ekatalog/osobowe/grupy/17172"><span class="center">1595</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(17172);"><a class="ajax" href="/ekatalog/osobowe/grupy/17172"><span class="center">102</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(17172);"><a class="ajax" href="/ekatalog/osobowe/grupy/17172"><span class="center">75</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(17172);"><a class="ajax" href="/ekatalog/osobowe/grupy/17172"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_6030" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(6030, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/6030"><span onclick="daj_gr_kat(6030);">1.6 E-Power</span><small onclick="daj_gr_kat(6030);">Kod silnika: CCSA, CMXA</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(6030);"><a class="ajax" href="/ekatalog/osobowe/grupy/6030"><span class="center">2011.01</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(6030);"><a class="ajax" href="/ekatalog/osobowe/grupy/6030"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(6030);"><a class="ajax" href="/ekatalog/osobowe/grupy/6030"><span class="center">1595</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(6030);"><a class="ajax" href="/ekatalog/osobowe/grupy/6030"><span class="center">102</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(6030);"><a class="ajax" href="/ekatalog/osobowe/grupy/6030"><span class="center">75</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(6030);"><a class="ajax" href="/ekatalog/osobowe/grupy/6030"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_17578" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(17578, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/17578"><span onclick="daj_gr_kat(17578);">1.6 FSI</span><small onclick="daj_gr_kat(17578);">Kod silnika: BLF, BAG, BLP</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(17578);"><a class="ajax" href="/ekatalog/osobowe/grupy/17578"><span class="center">2003.08</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(17578);"><a class="ajax" href="/ekatalog/osobowe/grupy/17578"><span class="center">2007.09</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(17578);"><a class="ajax" href="/ekatalog/osobowe/grupy/17578"><span class="center">1598</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(17578);"><a class="ajax" href="/ekatalog/osobowe/grupy/17578"><span class="center">115</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(17578);"><a class="ajax" href="/ekatalog/osobowe/grupy/17578"><span class="center">85</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(17578);"><a class="ajax" href="/ekatalog/osobowe/grupy/17578"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_23839" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(23839, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/23839"><span onclick="daj_gr_kat(23839);">1.8 T</span><small onclick="daj_gr_kat(23839);">Kod silnika: BPU</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(23839);"><a class="ajax" href="/ekatalog/osobowe/grupy/23839"><span class="center">2006.08</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(23839);"><a class="ajax" href="/ekatalog/osobowe/grupy/23839"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(23839);"><a class="ajax" href="/ekatalog/osobowe/grupy/23839"><span class="center">1781</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(23839);"><a class="ajax" href="/ekatalog/osobowe/grupy/23839"><span class="center">150</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(23839);"><a class="ajax" href="/ekatalog/osobowe/grupy/23839"><span class="center">110</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(23839);"><a class="ajax" href="/ekatalog/osobowe/grupy/23839"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_20864" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(20864, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/20864"><span onclick="daj_gr_kat(20864);">1.8 TFSI</span><small onclick="daj_gr_kat(20864);">Kod silnika: BZB, CDAA, BYT</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(20864);"><a class="ajax" href="/ekatalog/osobowe/grupy/20864"><span class="center">2006.11</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(20864);"><a class="ajax" href="/ekatalog/osobowe/grupy/20864"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(20864);"><a class="ajax" href="/ekatalog/osobowe/grupy/20864"><span class="center">1798</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(20864);"><a class="ajax" href="/ekatalog/osobowe/grupy/20864"><span class="center">160</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(20864);"><a class="ajax" href="/ekatalog/osobowe/grupy/20864"><span class="center">118</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(20864);"><a class="ajax" href="/ekatalog/osobowe/grupy/20864"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_30738" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(30738, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/30738"><span onclick="daj_gr_kat(30738);">1.8 TFSI quattro</span><small onclick="daj_gr_kat(30738);">Kod silnika: CDAA</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(30738);"><a class="ajax" href="/ekatalog/osobowe/grupy/30738"><span class="center">2008.07</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(30738);"><a class="ajax" href="/ekatalog/osobowe/grupy/30738"><span class="center">2012.08</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(30738);"><a class="ajax" href="/ekatalog/osobowe/grupy/30738"><span class="center">1798</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(30738);"><a class="ajax" href="/ekatalog/osobowe/grupy/30738"><span class="center">160</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(30738);"><a class="ajax" href="/ekatalog/osobowe/grupy/30738"><span class="center">118</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(30738);"><a class="ajax" href="/ekatalog/osobowe/grupy/30738"><span class="center">liftback</span></a></li>
+					  </ul><ul class="KatTcDcTable vmiddle typ typ_17009" >
+							<li class="width30 tKod vmiddle typli" >
+							   <div><span class="icon-ic-szu" onclick='stypu(17009, "O");'></span>
+							</div>
+							<a class="ajax" href="/ekatalog/osobowe/grupy/17009"><span onclick="daj_gr_kat(17009);">2.0 FSI</span><small onclick="daj_gr_kat(17009);">Kod silnika: BLR, BVY, BVZ, BLX, BLY, BMB, AXW</small></a></li>
+							<li class="width10 tDatOd vmiddle " onclick="daj_gr_kat(17009);"><a class="ajax" href="/ekatalog/osobowe/grupy/17009"><span class="center">2003.05</span></a></li>
+							<li class="width10 tDatDo vmiddle " onclick="daj_gr_kat(17009);"><a class="ajax" href="/ekatalog/osobowe/grupy/17009"><span class="center">2008.06</span></a></li>
+							<li class="width10 tPoj vmiddle " onclick="daj_gr_kat(17009);"><a class="ajax" href="/ekatalog/osobowe/grupy/17009"><span class="center">1984</span></a></li>
+							<li class="width10 tKon vmiddle " onclick="daj_gr_kat(17009);"><a class="ajax" href="/ekatalog/osobowe/grupy/17009"><span class="center">150</span></a></li>
+							<li class="width10 tKil vmiddle " onclick="daj_gr_kat(17009);"><a class="ajax" href="/ekatalog/osobowe/grupy/17009"><span class="center">110</span></a></li>
+							<li class="width20 tRod vmiddle " onclick="daj_gr_kat(17009);"><a class="ajax" href="/ekatalog/osobowe/grupy/17009"><span class="center">liftback</span></a></li>
+					  </ul>
