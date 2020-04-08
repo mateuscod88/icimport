@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace PrzegladarkaTest
 {
@@ -15,12 +16,12 @@ namespace PrzegladarkaTest
             foreach (var brand in brands)
             {
                 //var models = GetModelsByBrandId(brand.BrandICId);
-                var models = GetModelsByBrandId("5");
+                var models = GetModelsByBrandId(brand.BrandICId);
 
                 foreach (var model in models)
                 {
                     //var engines = GetEnginesByModelId(model.ModelId,model.BrandId,model.BrandName);
-                    var engines = GetEnginesByModelId("4955", "5", "A3 (8P1)");
+                    var engines = GetEnginesByModelId(model.ModelId, model.BrandId, model.Name);
 
                 }
             }
@@ -51,13 +52,13 @@ namespace PrzegladarkaTest
 
 
 
-            //var response = client.Execute(request);
-            string markaFilePath = @"C:\Custom\marka.txt";
-            var markaFile = File.ReadAllLines(markaFilePath);
-            var markaSplited = markaFile[0].Split("<li >");
+            var response = HttpGet("https://e-katalog.intercars.com.pl/u/tecdoc/u_tecdoc_result.php?call=marka&wsk=O");
+            //string markaFilePath = @"C:\Custom\marka.txt";
+            //var markaFile = File.ReadAllLines(markaFilePath);
+            //var markaSplited = markaFile[0].Split("<li >");
 
-            //var carsSplited = response.Content.Split("<li >");
-            var carsSplited = markaSplited;
+            var carsSplited = response.Split("<li >");
+            //var carsSplited = markaSplited;
             var brands = new List<Brand>();
             foreach (var item in carsSplited)
             {
@@ -88,10 +89,12 @@ namespace PrzegladarkaTest
 
             //var response = client.Execute(request);
             //var modelsSplited = response.Content.Split("<li");
-            string markaFilePath = @"C:\Custom\model.txt";
-            var markaFile = File.ReadAllText(markaFilePath);
-            var markaSplited = markaFile.Split("<li");
-            var modelsSplited = markaSplited;
+            //string markaFilePath = @"C:\Custom\model.txt";
+            //var markaFile = File.ReadAllText(markaFilePath);
+            //var markaSplited = markaFile.Split("<li");
+            Task.Delay(1000);
+            var response = HttpGet($"https://e-katalog.intercars.com.pl/u/tecdoc/u_tecdoc_result.php?call=model&mar={brandId}&wsk=O");
+            var modelsSplited = response.Split("<li");
             var models = new List<string>();
             foreach (var item in modelsSplited)
             {
@@ -222,17 +225,18 @@ namespace PrzegladarkaTest
             //request.AddParameter("call", "typ");
             //request.AddParameter("model", modelId);
             //request.AddParameter("wsk", "O");
-            var engineDataTypes = new List<string>
-            {
-                                   "tDatOd","tDatDo","tPoj","tKon","tKil","tRod"
-            };
+            //var engineDataTypes = new List<string>
+            //{
+            //                       "tDatOd","tDatDo","tPoj","tKon","tKil","tRod"
+            //};
 
             //var response = client.Execute(request);
             //var EnginesSplited = response.Content.Split("<li >");
             string markaFilePath = @"C:\Custom\silniki.txt";
             var markaFile = File.ReadAllText(markaFilePath);
             var markaSplited = markaFile.Split("<li");
-            var modelsSplited = markaSplited;
+            var response = HttpGet($"https://e-katalog.intercars.com.pl/u/tecdoc/u_tecdoc_result.php?call=typ&model={modelId}&wsk=O");
+            var modelsSplited = response.Split("<li");
             string id = string.Empty;
             string engineName = string.Empty;
             string engineCode = string.Empty;
@@ -476,6 +480,16 @@ namespace PrzegladarkaTest
                 }
             }
             return engineDetail;
+        }
+        private string HttpGet(string url)
+        {
+            
+            WebClient client = new WebClient();
+            client.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705;)");
+            Stream data = client.OpenRead(url);
+            StreamReader reader = new StreamReader(data);
+            string response = reader.ReadToEnd();
+            return response;
         }
     }
 }

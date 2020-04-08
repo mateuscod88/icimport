@@ -10,9 +10,11 @@ namespace PrzegladarkaTest
         {
 
             var icImporter = new ImporterIC();
-            var cars = icImporter.GetBrands();
-            icImporter.GetModelsByBrandId("5");
-            icImporter.GetEnginesByModelId("4955","5", "A3 (8P1)");
+            var cars = icImporter.GetCars();
+            //var cars = icImporter.GetBrands();
+
+            //icImporter.GetModelsByBrandId("5");
+            //icImporter.GetEnginesByModelId("4955","5", "A3 (8P1)");
             //var carList = icImporter.GetZastosowanie();
             //using (var sw = File.CreateText("Zastosowanie.txt"))
             //{
